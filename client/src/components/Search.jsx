@@ -57,14 +57,15 @@ class SearchBar extends React.Component {
         }
       >
         <input
+          className="search-location"
           id="pac-input"
           type="text"
-          placeholder="Enter a destination"
-          /*onChange={this.handleChange}*/
-          style={{ width: 150, height: 25, backgroundColor: 'powderblue', fontSize: 15 }}
+          placeholder="Enter a Destination"
+          /*onChange={this.handleChange}*/ 
         />
         <input
           id="search-input"
+          className="btn btn-info"
           type="submit"
         />
       </form>
